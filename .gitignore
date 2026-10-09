@@ -1,0 +1,37 @@
+# Python virtual environment
+
+backend/.venv/
+
+# Python cache and test artifacts
+
+**pycache**/
+*.py[cod]
+.pytest_cache/
+
+# Frontend dependencies
+
+frontend/node_modules/
+
+# Generated machine-learning models
+
+backend/models/*.joblib
+
+# Generated feedback data
+
+backend/feedback/*.json
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+
+dist/
+build/
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
